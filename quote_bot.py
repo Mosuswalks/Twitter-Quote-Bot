@@ -2,8 +2,8 @@ import tweepy
 from quotes_script import forismatic_quote
 
 
-auth = tweepy.OAuthHandler('Juhag2Ovsz8xHOl7kUAY7wo7w','6vJdWqWyuLb2IxuzoEfcCa6nsVa7FhLIkO1CgAFfygMAkLQvxA')
-auth.set_access_token('928329690233782272-TBFkSJks1LrP5AbT2jwgmkxCxBfXQ2Y','x8BdymrkDvZaL3zZxJ73KoWmHOhx5nSvg9Ygv9elDtK7k')
+auth = tweepy.OAuthHandler('consumer_key', 'consumer_secret')
+auth.set_access_token('access_token', 'access_token_secret')
 
 api = tweepy.API(auth)
 
